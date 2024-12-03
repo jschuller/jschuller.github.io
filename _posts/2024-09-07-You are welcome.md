@@ -7,7 +7,7 @@ categories: [category1, category2]
 
 Well, well, well ... Mister Anderson.
 
-this is an example code snip
+this is an example code snippet
 ```
 ls -la
 ```
