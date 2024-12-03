@@ -1,0 +1,65 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-02-14T00:00:00Z",
+    "tools": [
+      {
+        "vendor": "Cascade",
+        "name": "SBOM Generator",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "jekyll-theme-chirpy",
+      "version": "7.1.0",
+      "purl": "pkg:gem/jekyll-theme-chirpy@7.1.0"
+    },
+    {
+      "type": "library",
+      "name": "html-proofer",
+      "version": "5.0.9",
+      "purl": "pkg:gem/html-proofer@5.0.9"
+    },
+    {
+      "type": "library",
+      "name": "jekyll",
+      "version": "4.3.3",
+      "purl": "pkg:gem/jekyll@4.3.3"
+    },
+    {
+      "type": "library",
+      "name": "jekyll-archives",
+      "version": "2.2.1",
+      "purl": "pkg:gem/jekyll-archives@2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "jekyll-paginate",
+      "version": "1.1.0",
+      "purl": "pkg:gem/jekyll-paginate@1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "jekyll-redirect-from",
+      "version": "0.16.0",
+      "purl": "pkg:gem/jekyll-redirect-from@0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "jekyll-seo-tag",
+      "version": "2.8.0",
+      "purl": "pkg:gem/jekyll-seo-tag@2.8.0"
+    },
+    {
+      "type": "library",
+      "name": "jekyll-sitemap",
+      "version": "1.4.0",
+      "purl": "pkg:gem/jekyll-sitemap@1.4.0"
+    }
+  ]
+}

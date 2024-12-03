@@ -16,7 +16,7 @@ timezone: US/Eastern
 
 title: Innovation Labs # the main title
 
-tagline: Transforming business with advancements in data science and machine learning. # it will display as the subtitle
+tagline: Transforming business with advancements in data science and machine learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
