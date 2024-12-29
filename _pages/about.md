@@ -30,3 +30,4 @@ Utilizing my project experience in Cloud Data Platforms, DevOps/MLOps and Servic
 I'm passionate about extending ServiceNow's powerful platform capabilities with AI/ML technologies to deliver measurable business value.
 
 Ask me about enabling teams to move fast and safely!
+
