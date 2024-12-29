@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 Hi there, I'm Josh! 👋
 
-I'm a <a href='https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=joshuaschuller'>Certified Technical Architect</a> specialized in Data, Machine Learning & Governance.  My work focuses on building capabilities, products and teams to maximize business outcomes.
+I'm a <a href='https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=joshuaschuller'>Certified Technical Architect</a> specialized in Data, Machine Learning & Governance. My work focuses on building capabilities, products and teams to maximize business outcomes.
 
 Utilizing my project experience in Cloud Data Platforms, DevOps/MLOps and ServiceNow, I help organizations:
 
@@ -29,5 +29,4 @@ Utilizing my project experience in Cloud Data Platforms, DevOps/MLOps and Servic
 
 I'm passionate about extending ServiceNow's powerful platform capabilities with AI/ML technologies to deliver measurable business value.
 
-Ask me about enabling teams to move fast and safely! 
-
+Ask me about enabling teams to move fast and safely!

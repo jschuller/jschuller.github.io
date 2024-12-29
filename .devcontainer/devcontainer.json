@@ -10,13 +10,11 @@
     "ghcr.io/devcontainers-contrib/features/prettier:1": {}
   },
 
-  // Git settings 
+  // Git settings
   "postCreateCommand": "git config --global user.name 'Joshua Schuller' && git config --global user.email 'joshua.schuller@gmail.com'",
-  
+
   // SSH key forwarding
-  "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
-  ],
+  "mounts": ["source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"],
 
   // Jekyll serve command
   "postAttachCommand": "./bin/entry_point.sh",
@@ -25,7 +23,7 @@
     "vscode": {
       "extensions": [
         "esbenp.prettier-vscode",
-        "sissel.shopify-liquid", 
+        "sissel.shopify-liquid",
         "yzhang.markdown-all-in-one",
         "eliostruyf.vscode-front-matter",
         "redhat.vscode-yaml"
