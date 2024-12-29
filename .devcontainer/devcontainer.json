@@ -1,10 +1,8 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
   "name": "Jekyll",
   "image": "mcr.microsoft.com/devcontainers/jekyll",
 
-  // Features to add to the dev container. More info: https://containers.dev/features.
+  // Features to add to the dev container
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
       "packages": "build-essential,imagemagick,inotify-tools,jupyter-nbconvert,procps,ruby-full,zlib1g-dev"
@@ -12,14 +10,29 @@
     "ghcr.io/devcontainers-contrib/features/prettier:1": {}
   },
 
-  // Optionally: run jekyll serve automatically on container entering using the Docker entrypoint
+  // Git settings and SSH configuration
+  "postCreateCommand": "git config --global user.name 'Joshua Schuller' && git config --global user.email 'joshua.schuller@gmail.com'",
+  
+  // Environment variables for Git
+  "remoteEnv": {
+    "GIT_AUTHOR_NAME": "Joshua Schuller",
+    "GIT_AUTHOR_EMAIL": "joshua.schuller@gmail.com",
+    "GIT_COMMITTER_NAME": "Joshua Schuller",
+    "GIT_COMMITTER_EMAIL": "joshua.schuller@gmail.com"
+  },
+
+  // SSH key forwarding
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+  ],
+
+  // Jekyll serve command
   "postAttachCommand": "./bin/entry_point.sh",
 
   "customizations": {
     "vscode": {
       "extensions": ["esbenp.prettier-vscode", "sissel.shopify-liquid", "yzhang.markdown-all-in-one"],
       "settings": {
-        // use prettier code formatter as default formatter
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "prettier.configPath": ".prettierrc",
         "editor.formatOnSave": true
