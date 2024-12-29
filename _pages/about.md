@@ -16,8 +16,18 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there, I'm Josh! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a Certified Technical Architect specialized in Data, Machine Learning & Governance.  My work focuses on building capabilities, products and teams to maximize business outcomes.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Utilizing my project experience in Cloud Data Platforms, DevOps/MLOps and ServiceNow, I help organizations:
+
+- Build intelligent workflows using machine learning
+- Implement GenAI solutions within ServiceNow
+- Develop custom AI/ML models for process automation
+- Create data-driven dashboards and insights
+
+I'm passionate about extending ServiceNow's powerful platform capabilities with AI/ML technologies to deliver measurable business value.
+
+Ask me about enabling teams to move fast and safely! 
+
